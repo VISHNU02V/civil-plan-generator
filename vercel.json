@@ -9,5 +9,9 @@
             "src": "/(.*)",
             "dest": "plangenerator/wsgi.py"
         }
-    ]
+    ],
+    "rewrites":[{
+        "src": "/(.*)",
+        "dest": "/"
+    }]
 }
